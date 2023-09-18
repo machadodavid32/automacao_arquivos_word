@@ -1,0 +1,6 @@
+Instalar biblioteca docx no python
+pip install python-docx
+
+
+documentação da biblioteca
+https://python-docx.readthedocs.io/en/latest/
