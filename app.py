@@ -43,6 +43,9 @@ documento.add_paragraph('primeiro item em uma lista numerada', style='List Numbe
 # Adicionando imagens
 documento.add_picture('computador.png', width=Cm(5.25))  # o segundo parâmetro é pra definir o tamanho da imagem
 
+# Adicionando quebra de linha - pra não ficar com a tabela, por exemplo, dividida entre uma celula e outra
+documento.add_page_break()
+
 # Adicionando tabelas - modo chato
 """
 tabela = documento.add_table(rows=3, cols=2) # criando tabela com 3 linhas e 2 colunas
